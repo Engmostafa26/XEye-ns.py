@@ -39,4 +39,8 @@ def printr(ipss):
     for nn in ipss:
         print(nn["ips"]+"\t\t"+nn["mac"])
 args()
-
+print("\n---------------------------------------------------------")
+print("\n --> The Facebook OSINT Hacking course: https://www.udemy.com/course/facebook-osint-hacking/?referralCode=1FEF1A87D703B6DAE484")
+print("\n --> The Kali Linux Command course: https://www.udemy.com/course/linux-command-lines-from-a-hackers-perspective/?referralCode=62A07A01780C21117592")
+print("\n---------------------------------------------------------")
+print("\n\n [Author] --> ENG.Mostafa Ahmad - Cybersecurity Expert")
