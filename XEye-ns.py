@@ -5,7 +5,7 @@ import scapy.all as sc
 
 print("---------------------------------------------------------")
 print(" \n[Welcoming] --> Welcome to XEye Network Scanner \n")
-print(" [Info] --> This is a simple network scanner to get the hosts that are up and their Mac addresses\n\n")
+print(" [Info] --> This is a simple and fast network scanner to get the hosts that are up and their Mac addresses\n\n")
 
 def args():
     opts = argparse.ArgumentParser()
