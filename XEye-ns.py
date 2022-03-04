@@ -10,7 +10,7 @@ ipr = subprocess.getoutput("ip r | grep proto | cut -d\" \" -f1")
 ipra = re.search(r"(?:\d{1,3}\.){3}\d{1,3}(?:/\d\d?)?",str(ipr)).group(0)
 def scan(ip):
     print("\n-----------------------------------------------------------------------------------")
-    print("\n[Working] --> XEye-ns is scanning your network subnet which is \""+ipra+"\"")
+    print("\n[Working] --> XEye-ns is scanning your network subnet which is \""+ipra+"\" - Please wait .......")
     ipa = sc.ARP(pdst=ip)
     ipe = sc.Ether(dst="ff:ff:ff:ff:ff:ff")
     # sc.ls(sc.Ether())
