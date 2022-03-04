@@ -23,11 +23,12 @@ def scan(ip):
         # print(each[1].show())
         print("\n\t\t\t\t\t\t[*] --> The IP: "+each[1].psrc +"\n\t\t\t\t\t\t[*] --> The Mac: "+each[1].hwsrc+"\n")
         print("\t\t\t\t\t\t--------------------------------------")
+    TheEnd()
 def checkpriv():
     who=subprocess.getoutput("whoami")
     checwho = re.search(r"root",str(who))
     if checwho is None:
-        print(" [Instruction] --> Please run the tool with \"sudo\" - Exiting ......")
+        print("\n[Instruction] --> Please run the tool with \"sudo\" - Exiting ......")
     else:
         scan(ipra)
 def TheEnd():
@@ -37,4 +38,3 @@ def TheEnd():
     print("\n---------------------------------------------------------")
     print("\n [Author] --> ENG.Mostafa Ahmad - Cybersecurity Expert and XEye founder")
 checkpriv()
-TheEnd()
