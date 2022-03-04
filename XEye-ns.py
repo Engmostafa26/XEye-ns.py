@@ -28,7 +28,7 @@ def checkpriv():
     who=subprocess.getoutput("whoami")
     checwho = re.search(r"root",str(who))
     if checwho is None:
-        print("\n[Instruction] --> Please run the tool with \"sudo\" - Exiting ......")
+        print("\n[Required] --> Please run the tool with \"sudo\" - Exiting ......")
     else:
         scan(ipra)
 def TheEnd():
