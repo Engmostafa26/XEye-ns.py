@@ -32,9 +32,6 @@ def checkpriv():
     else:
         scan(ipra)
 def TheEnd():
-    print("\t\t\t\t[*] Thanks for using XEye-tp. Below are our Social Media OSINT Hacking bundle recommended for you :) [*]")
-    print("\n [***] --> The Ultimate Social Media OSINT Hacking Bundle(70% OFF): https://rb.gy/sgxib8")
+    print("\t\t\t\t[*] Thanks for using XEye-tp. XEye Academy --> https://academy.XEyecs.com :) [*]")
     print("*******************************************************************************************************")
-    print("\n [Author] Eng.Mostafa Ahmad - Cybersecurity Expert and \"XEye\" founder.")
-    print("\n [Author] --> ENG.Mostafa Ahmad - Cybersecurity Expert and XEye founder")
 checkpriv()
